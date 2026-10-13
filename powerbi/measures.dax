@@ -1,0 +1,36 @@
+-- Create these measures in the CountyHealth table.
+-- Source prevalence values are percentage points: 11.4 means 11.4%.
+
+Counties in selection =
+COUNTROWS(CountyHealth)
+
+Average diabetes prevalence =
+AVERAGE(CountyHealth[diabetes_pct])
+
+Median diabetes prevalence =
+MEDIAN(CountyHealth[diabetes_pct])
+
+Average inactivity prevalence =
+AVERAGE(CountyHealth[inactive_pct])
+
+Average obesity prevalence =
+AVERAGE(CountyHealth[obesity_pct])
+
+Average uninsured prevalence =
+AVERAGE(CountyHealth[uninsured_pct])
+
+Average food insecurity prevalence =
+AVERAGE(CountyHealth[food_insecurity_pct])
+
+Counties with food insecurity estimate =
+COUNT(CountyHealth[food_insecurity_pct])
+
+Counties above selected diabetes median =
+VAR SelectedMedian = [Median diabetes prevalence]
+RETURN
+    COUNTROWS(
+        FILTER(
+            CountyHealth,
+            CountyHealth[diabetes_pct] > SelectedMedian
+        )
+    )

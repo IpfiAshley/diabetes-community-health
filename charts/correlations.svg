@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" role="img" aria-label="County correlation results">
+<rect width="100%" height="100%" fill="white"/>
+<text x="22" y="35" font-family="Arial" font-size="23" font-weight="700" fill="#142b3b">County-level association with diabetes prevalence</text>
+<circle cx="535" cy="58" r="6" fill="#17969b"/><text x="548" y="63" font-family="Arial" font-size="13" fill="#435768">All counties</text>
+<rect x="660" y="52" width="12" height="12" fill="#e2a441"/><text x="680" y="63" font-family="Arial" font-size="13" fill="#435768">Within-state (state-mean removed)</text>
+<text x="22" y="111" font-family="Arial" font-size="14" fill="#243b4b">Obesity</text>
+<line x1="285.0" y1="95" x2="285.0" y2="125" stroke="#edf1f3"/>
+<line x1="397.5" y1="95" x2="397.5" y2="125" stroke="#edf1f3"/>
+<line x1="510.0" y1="95" x2="510.0" y2="125" stroke="#edf1f3"/>
+<line x1="622.5" y1="95" x2="622.5" y2="125" stroke="#edf1f3"/>
+<line x1="735.0" y1="95" x2="735.0" y2="125" stroke="#edf1f3"/>
+<rect x="285" y="96" width="307.4" height="13" rx="5" fill="#17969b"/>
+<rect x="285" y="112" width="327.9" height="13" rx="5" fill="#e2a441"/>
+<text x="600.4" y="107" font-family="Arial" font-size="12" fill="#435768">0.68</text>
+<text x="620.9" y="123" font-family="Arial" font-size="12" fill="#435768">0.73</text>
+<text x="22" y="169" font-family="Arial" font-size="14" fill="#243b4b">No leisure-time physical activity</text>
+<line x1="285.0" y1="153" x2="285.0" y2="183" stroke="#edf1f3"/>
+<line x1="397.5" y1="153" x2="397.5" y2="183" stroke="#edf1f3"/>
+<line x1="510.0" y1="153" x2="510.0" y2="183" stroke="#edf1f3"/>
+<line x1="622.5" y1="153" x2="622.5" y2="183" stroke="#edf1f3"/>
+<line x1="735.0" y1="153" x2="735.0" y2="183" stroke="#edf1f3"/>
+<rect x="285" y="154" width="393.0" height="13" rx="5" fill="#17969b"/>
+<rect x="285" y="170" width="410.3" height="13" rx="5" fill="#e2a441"/>
+<text x="686.0" y="165" font-family="Arial" font-size="12" fill="#435768">0.87</text>
+<text x="703.3" y="181" font-family="Arial" font-size="12" fill="#435768">0.91</text>
+<text x="22" y="227" font-family="Arial" font-size="14" fill="#243b4b">Uninsured adults 18–64</text>
+<line x1="285.0" y1="211" x2="285.0" y2="241" stroke="#edf1f3"/>
+<line x1="397.5" y1="211" x2="397.5" y2="241" stroke="#edf1f3"/>
+<line x1="510.0" y1="211" x2="510.0" y2="241" stroke="#edf1f3"/>
+<line x1="622.5" y1="211" x2="622.5" y2="241" stroke="#edf1f3"/>
+<line x1="735.0" y1="211" x2="735.0" y2="241" stroke="#edf1f3"/>
+<rect x="285" y="212" width="284.1" height="13" rx="5" fill="#17969b"/>
+<rect x="285" y="228" width="335.2" height="13" rx="5" fill="#e2a441"/>
+<text x="577.1" y="223" font-family="Arial" font-size="12" fill="#435768">0.63</text>
+<text x="628.2" y="239" font-family="Arial" font-size="12" fill="#435768">0.74</text>
+<text x="22" y="285" font-family="Arial" font-size="14" fill="#243b4b">Food insecurity (2,299 counties)</text>
+<line x1="285.0" y1="269" x2="285.0" y2="299" stroke="#edf1f3"/>
+<line x1="397.5" y1="269" x2="397.5" y2="299" stroke="#edf1f3"/>
+<line x1="510.0" y1="269" x2="510.0" y2="299" stroke="#edf1f3"/>
+<line x1="622.5" y1="269" x2="622.5" y2="299" stroke="#edf1f3"/>
+<line x1="735.0" y1="269" x2="735.0" y2="299" stroke="#edf1f3"/>
+<rect x="285" y="270" width="421.5" height="13" rx="5" fill="#17969b"/>
+<rect x="285" y="286" width="440.7" height="13" rx="5" fill="#e2a441"/>
+<text x="714.5" y="281" font-family="Arial" font-size="12" fill="#435768">0.94</text>
+<text x="733.7" y="297" font-family="Arial" font-size="12" fill="#435768">0.98</text>
+<text x="285" y="294" font-family="Arial" font-size="12" fill="#657786">Pearson correlation (0 to 1)</text></svg>
